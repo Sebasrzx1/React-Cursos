@@ -1,1 +1,31 @@
-npm create vite@latest
+npm create vite@latest (Para crear un proyecto react)
+
+COMANDOS PARA EL REPOSITORIO GITHUB
+
+Iniciar repositorio local:
+git init 
+
+Cambiar la rama del de master a Main:
+git branch -M main
+
+Eliminar credenciales de otros usuarios:
+Windos + s
+Escribir: Administrar credenciales 
+Seleccionar Credenciales de windows
+Buscar github y eliminar o quitar las credenciales de los usuarios que no sea el mio
+Luego de eliminar las credenciales
+
+Configurar usuario local de Git:
+git config user.email "sramirezcarlosama@gmail.com"
+git config user.name "Sebsarzx1"
+
+
+Ahora agregar todos los archivos del proyecto:
+git add .
+
+Luego realizar un commit descriptivo de la version a subir:
+git commit -m "Primera subida"
+
+Despues subimos a nuestro repositorio github:
+git remote add origin https://github.com/Sebasrzx1/React-Cursos.git
+git push -u origin main
