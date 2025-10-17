@@ -50,3 +50,8 @@ Crear ramas:
 git checkout -b nombre_de_la_rama
 git switch -c nombre_de_la_rama 
 git  push origin nombre_de_la_rama
+
+Crear un proyecto de react con:
+npm create vite@latest 
+escoger React
+y escoger Javascript + SWC
