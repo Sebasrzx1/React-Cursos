@@ -29,3 +29,24 @@ git commit -m "Primera subida"
 Despues subimos a nuestro repositorio github:
 git remote add origin https://github.com/Sebasrzx1/React-Cursos.git
 git push -u origin main
+
+saldra que debe iniciar sesion con el navegador
+inicie sesion con sus credenciales del Github
+Listo actualiza el repositorio de la nube
+
+Comprobar el estado del proyecto:
+git status
+
+(Si aparece en algo en rojo significa que el archivo es nuevo o se ha modificado).
+
+
+Comandos para actualizar la subida de archivos al mismo repositorio:
+git status
+git add .
+git commit -m "nombre de la version o descripcion del commit"
+git push
+
+Crear ramas:
+git checkout -b nombre_de_la_rama
+git switch -c nombre_de_la_rama 
+git  push origin nombre_de_la_rama
